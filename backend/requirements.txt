@@ -2,6 +2,13 @@ asgiref==3.9.1
 Django==3.2.3
 django-cors-headers==3.13.0
 djangorestframework==3.12.4
+flake8==6.0.0
+flake8-isort==6.1.2
+isort==6.0.1
+mccabe==0.7.0
+psycopg2-binary==2.9.10
+pycodestyle==2.10.0
+pyflakes==3.0.1
 python-dotenv==1.1.1
 pytz==2025.2
 setuptools==80.9.0
