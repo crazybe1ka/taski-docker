@@ -5,7 +5,8 @@ from dotenv import load_dotenv
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-load_dotenv()
+env_path = BASE_DIR / '.env'
+load_dotenv(dotenv_path=env_path)
 SECRET_KEY = os.getenv('SECRET_KEY')
 
 DEBUG = True
