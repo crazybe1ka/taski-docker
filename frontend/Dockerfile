@@ -7,7 +7,8 @@ COPY package-lock.json package-lock.json
 RUN npm install
 
 COPY . .
-RUN npm run build
+# сборка фронтеда и статики
+RUN npm run build    
 
 # Эта команда запустит встроенный сервер на Node.js, который будет раздавать
 # содержимое директории /app/build на порте 8000
